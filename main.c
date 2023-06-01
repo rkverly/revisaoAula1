@@ -10,7 +10,9 @@ int main(){
     printf("\nDigite o segundo número: ");
     scanf("%f", &num2);
 
-
+    //soma
+    soma = num1 + num2;
+    printf("Soma: %.2f\n", soma);
 
     return 0;
 }
